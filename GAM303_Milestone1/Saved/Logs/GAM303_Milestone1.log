@@ -1,0 +1,1127 @@
+﻿Log file open, 09/24/17 16:11:07
+LogInit:Display: Running engine for game: GAM303_Milestone1
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(653758791) SRandInit(653758791).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.076997
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.24-20.11.07:979][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.24-20.11.07:979][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.24-20.11.07:991][  0]LogInit: Computer: DESKTOP-HEFOI2S
+[2017.09.24-20.11.07:991][  0]LogInit: User: Brendan0222
+[2017.09.24-20.11.07:991][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.24-20.11.07:991][  0]LogInit: High frequency timer resolution =3.914071 MHz
+[2017.09.24-20.11.07:992][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.24-20.11.07:992][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.24-20.11.07:992][  0]LogMemory: Process Physical Memory: 272.75 MB used, 272.75 MB peak
+[2017.09.24-20.11.07:992][  0]LogMemory: Process Virtual Memory: 263.52 MB used, 263.52 MB peak
+[2017.09.24-20.11.07:992][  0]LogMemory: Physical Memory: 6000.15 MB used,  10297.72 MB free, 16297.87 MB total
+[2017.09.24-20.11.07:992][  0]LogMemory: Virtual Memory: 640.68 MB used,  10297.72 MB free, 134217728.00 MB total
+[2017.09.24-20.11.08:210][  0]LogInit: Using OS detected language (en-US).
+[2017.09.24-20.11.08:210][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.24-20.11.08:212][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.24-20.11.08:845][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.24-20.11.08:926][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.09.24-20.11.08:926][  0]LogD3D11RHI:       4058/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.24-20.11.08:928][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.24-20.11.08:928][  0]LogD3D11RHI:       0/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.24-20.11.08:928][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.24-20.11.08:930][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.24-20.11.08:930][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.24-20.11.08:930][  0]LogWindows: EnumDisplayDevices:
+[2017.09.24-20.11.08:930][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.09.24-20.11.08:931][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.09.24-20.11.08:931][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.09.24-20.11.08:931][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.09.24-20.11.08:931][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.24-20.11.08:931][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.09.24-20.11.08:931][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.09.24-20.11.08:931][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.09.24-20.11.08:931][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.24-20.11.08:943][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.24-20.11.08:952][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.24-20.11.09:051][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Intermediate/Shaders/WorkingDirectory/6364/).
+[2017.09.24-20.11.09:051][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Brendan0222/AppData/Local/Temp/UnrealShaderWorkingDir/83A724434EA91C7D5A53DDABE231721C/'.
+[2017.09.24-20.11.09:051][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.24-20.11.09:795][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.24-20.11.09:824][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.24-20.11.09:852][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.24-20.11.09:881][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.24-20.11.09:909][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.24-20.11.09:937][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.24-20.11.09:965][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.24-20.11.09:993][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.24-20.11.10:018][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.24-20.11.10:046][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.24-20.11.10:074][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.24-20.11.10:102][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.24-20.11.10:130][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.24-20.11.10:157][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.24-20.11.10:185][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.24-20.11.10:241][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.24-20.11.10:241][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.24-20.11.10:263][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.24-20.11.10:323][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.24-20.11.10:339][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.24-20.11.10:367][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.24-20.11.10:394][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.24-20.11.10:422][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.24-20.11.10:451][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.24-20.11.10:451][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.24-20.11.10:709][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.24-20.11.10:760][  0]LogDerivedDataCache: Loaded boot cache 0.05s 90MB C:/Users/Brendan0222/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.24-20.11.10:760][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Brendan0222/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.24-20.11.10:760][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.24-20.11.10:760][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.24-20.11.10:760][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.24-20.11.10:760][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.24-20.11.10:773][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.24-20.11.10:786][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Brendan0222/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.24-20.11.10:793][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.24-20.11.10:793][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.24-20.11.10:793][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.24-20.11.10:793][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.24-20.11.11:019][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.24-20.11.11:060][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.24-20.11.11:157][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.24-20.11.11:181][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.24-20.11.11:206][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.24-20.11.11:206][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.24-20.11.11:206][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.24-20.11.11:526][  0]LogNetVersion: GAM303_Milestone1 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2302416980)
+[2017.09.24-20.11.11:571][  0]LogAssetRegistry: FAssetRegistry took 0.0246 seconds to start up
+[2017.09.24-20.11.11:614][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.030971 seconds
+[2017.09.24-20.11.11:618][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.24-20.11.11:618][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.24-20.11.11:618][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.24-20.11.11:651][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.24-20.11.13:274][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.24-20.11.13:319][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.24-20.11.13:884][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.24-20.11.14:144][  0]SourceControl: Info Source control is disabled
+[2017.09.24-20.11.14:196][  0]SourceControl: Info Source control is disabled
+[2017.09.24-20.11.14:221][  0]SourceControl: Info Source control is disabled
+[2017.09.24-20.11.14:245][  0]SourceControl: Info Source control is disabled
+[2017.09.24-20.11.14:378][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Main_Menu_Game'
+[2017.09.24-20.11.14:378][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Main_Menu_Game'
+[2017.09.24-20.11.14:378][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/Main_Menu_Game.Main_Menu_Game_C'
+[2017.09.24-20.11.14:597][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.24-20.11.14:945][  0]LogEngine: Initializing Engine...
+[2017.09.24-20.11.14:946][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.24-20.11.15:068][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.24-20.11.15:068][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.24-20.11.15:135][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.24-20.11.15:164][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.24-20.11.15:179][  0]LogInit: FAudioDevice initialized.
+[2017.09.24-20.11.15:211][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/Brendan0222/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.24-20.11.15:220][  0]LogInit: Texture streaming: Enabled
+[2017.09.24-20.11.15:272][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.24-20.11.15:411][  0]LogInit: Transaction tracking system initialized
+[2017.09.24-20.11.15:585][  0]BlueprintLog: New page: Editor Load
+[2017.09.24-20.11.16:126][  0]LocalizationService: Info Localization service is disabled
+[2017.09.24-20.11.16:521][  0]LogConsoleResponse:Display: 
+[2017.09.24-20.11.16:611][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.24-20.11.16:611][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.24-20.11.16:846][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/' took 0.01s
+[2017.09.24-20.11.17:248][  0]SourceControl: Info Source control is disabled
+[2017.09.24-20.11.17:249][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 E:/UE_4.16/FeaturePacks/StarterContent.upack)
+[2017.09.24-20.11.17:252][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.09.24-20.11.17:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.09.24-20.11.17:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.09.24-20.11.17:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.09.24-20.11.17:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.09.24-20.11.17:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.09.24-20.11.17:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.09.24-20.11.17:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.09.24-20.11.17:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.09.24-20.11.17:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.09.24-20.11.17:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.09.24-20.11.17:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.09.24-20.11.17:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.09.24-20.11.17:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.09.24-20.11.17:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.09.24-20.11.17:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.09.24-20.11.17:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.09.24-20.11.17:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.09.24-20.11.17:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Fire01.uasset"
+[2017.09.24-20.11.17:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.09.24-20.11.17:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.09.24-20.11.17:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.09.24-20.11.17:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Light01.uasset"
+[2017.09.24-20.11.17:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.09.24-20.11.17:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Light02.uasset"
+[2017.09.24-20.11.17:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.09.24-20.11.17:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.09.24-20.11.17:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.09.24-20.11.17:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.09.24-20.11.17:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.09.24-20.11.17:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.09.24-20.11.17:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.09.24-20.11.17:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.09.24-20.11.17:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.09.24-20.11.17:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Steam01.uasset"
+[2017.09.24-20.11.17:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.09.24-20.11.17:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.09.24-20.11.17:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.09.24-20.11.17:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.09.24-20.11.17:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.09.24-20.11.17:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.09.24-20.11.17:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.09.24-20.11.17:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.09.24-20.11.17:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.09.24-20.11.17:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.09.24-20.11.17:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.09.24-20.11.17:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.09.24-20.11.17:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.09.24-20.11.17:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.09.24-20.11.17:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.09.24-20.11.17:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.09.24-20.11.17:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.09.24-20.11.17:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.09.24-20.11.17:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.09.24-20.11.17:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.09.24-20.11.17:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.09.24-20.11.17:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.09.24-20.11.17:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Maps/StarterMap.umap"
+[2017.09.24-20.11.17:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.09.24-20.11.17:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.09.24-20.11.17:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.09.24-20.11.17:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.09.24-20.11.17:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.09.24-20.11.17:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.09.24-20.11.17:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.09.24-20.11.17:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.09.24-20.11.17:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.09.24-20.11.18:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.09.24-20.11.18:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.09.24-20.11.18:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.09.24-20.11.18:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.09.24-20.11.18:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.09.24-20.11.18:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.09.24-20.11.18:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.09.24-20.11.18:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.09.24-20.11.18:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.09.24-20.11.18:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.09.24-20.11.18:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.09.24-20.11.18:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.09.24-20.11.18:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.09.24-20.11.18:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.09.24-20.11.18:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.09.24-20.11.18:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.09.24-20.11.18:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.09.24-20.11.18:257][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.09.24-20.11.18:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.09.24-20.11.18:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.09.24-20.11.18:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.09.24-20.11.18:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.09.24-20.11.18:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.09.24-20.11.18:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.09.24-20.11.18:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.09.24-20.11.18:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.09.24-20.11.18:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.09.24-20.11.18:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.09.24-20.11.18:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.09.24-20.11.18:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.09.24-20.11.18:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.09.24-20.11.18:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.09.24-20.11.18:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.09.24-20.11.18:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.09.24-20.11.18:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.09.24-20.11.18:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.09.24-20.11.18:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.09.24-20.11.18:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.09.24-20.11.18:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.09.24-20.11.18:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.09.24-20.11.18:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.09.24-20.11.18:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.09.24-20.11.18:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.09.24-20.11.18:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.09.24-20.11.18:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.09.24-20.11.18:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.09.24-20.11.18:681][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.09.24-20.11.18:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.09.24-20.11.18:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.09.24-20.11.18:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.09.24-20.11.18:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.09.24-20.11.18:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.09.24-20.11.18:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.09.24-20.11.18:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.09.24-20.11.18:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.09.24-20.11.18:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.09.24-20.11.18:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_Door.uasset"
+[2017.09.24-20.11.18:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.09.24-20.11.18:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.09.24-20.11.18:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.09.24-20.11.18:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.09.24-20.11.18:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.09.24-20.11.18:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.09.24-20.11.18:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.09.24-20.11.18:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.09.24-20.11.18:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.09.24-20.11.18:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.09.24-20.11.18:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.09.24-20.11.18:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.09.24-20.11.19:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.09.24-20.11.19:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.09.24-20.11.19:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.09.24-20.11.19:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.09.24-20.11.19:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.09.24-20.11.19:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.09.24-20.11.19:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.09.24-20.11.19:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.09.24-20.11.19:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.09.24-20.11.19:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.09.24-20.11.19:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.09.24-20.11.19:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.09.24-20.11.19:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.09.24-20.11.19:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.09.24-20.11.19:311][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.09.24-20.11.19:333][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.09.24-20.11.19:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.09.24-20.11.19:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.09.24-20.11.19:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.09.24-20.11.19:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.09.24-20.11.19:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.09.24-20.11.19:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.09.24-20.11.19:468][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.09.24-20.11.19:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.09.24-20.11.19:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.09.24-20.11.19:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.09.24-20.11.19:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.09.24-20.11.19:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.09.24-20.11.19:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.09.24-20.11.19:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.09.24-20.11.19:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.09.24-20.11.19:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.09.24-20.11.19:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.09.24-20.11.19:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.09.24-20.11.19:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.09.24-20.11.19:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.09.24-20.11.19:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.09.24-20.11.19:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.09.24-20.11.19:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.09.24-20.11.19:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.09.24-20.11.19:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.09.24-20.11.19:807][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.09.24-20.11.19:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.09.24-20.11.19:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.09.24-20.11.19:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.09.24-20.11.19:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.09.24-20.11.19:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.09.24-20.11.19:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.09.24-20.11.19:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.09.24-20.11.19:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.09.24-20.11.19:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.09.24-20.11.19:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.09.24-20.11.19:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.09.24-20.11.19:990][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.09.24-20.11.20:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.09.24-20.11.20:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.09.24-20.11.20:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.09.24-20.11.20:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.09.24-20.11.20:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.09.24-20.11.20:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.09.24-20.11.20:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.09.24-20.11.20:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.09.24-20.11.20:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.09.24-20.11.20:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.09.24-20.11.20:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.09.24-20.11.20:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.09.24-20.11.20:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.09.24-20.11.20:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.09.24-20.11.20:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.09.24-20.11.20:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.09.24-20.11.20:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.09.24-20.11.20:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.09.24-20.11.20:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.09.24-20.11.20:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.09.24-20.11.20:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.09.24-20.11.20:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.09.24-20.11.20:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.09.24-20.11.20:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.09.24-20.11.20:537][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.09.24-20.11.20:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.09.24-20.11.20:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.09.24-20.11.20:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.09.24-20.11.20:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.09.24-20.11.20:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.09.24-20.11.20:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.09.24-20.11.20:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.09.24-20.11.20:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.09.24-20.11.20:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.09.24-20.11.20:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.09.24-20.11.20:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.09.24-20.11.20:812][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.09.24-20.11.20:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.09.24-20.11.20:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.09.24-20.11.20:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.09.24-20.11.20:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.09.24-20.11.20:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.09.24-20.11.20:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.09.24-20.11.20:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.09.24-20.11.21:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.09.24-20.11.21:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.09.24-20.11.21:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.09.24-20.11.21:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.09.24-20.11.21:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.09.24-20.11.21:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.09.24-20.11.21:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.09.24-20.11.21:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.09.24-20.11.21:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.09.24-20.11.21:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.09.24-20.11.21:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.09.24-20.11.21:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.09.24-20.11.21:358][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.09.24-20.11.21:375][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.09.24-20.11.21:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.09.24-20.11.21:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.09.24-20.11.21:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.09.24-20.11.21:428][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.09.24-20.11.21:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.09.24-20.11.21:454][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.09.24-20.11.21:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.09.24-20.11.21:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.09.24-20.11.21:491][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.09.24-20.11.21:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.09.24-20.11.21:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.09.24-20.11.21:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.09.24-20.11.21:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.09.24-20.11.21:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.09.24-20.11.21:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.09.24-20.11.21:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.09.24-20.11.21:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.09.24-20.11.21:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.09.24-20.11.21:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.09.24-20.11.21:651][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.09.24-20.11.21:664][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.09.24-20.11.21:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.09.24-20.11.21:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.09.24-20.11.21:794][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2017.09.24-20.11.21:960][  0]LogSavePackage: Save=73.74ms
+[2017.09.24-20.11.21:960][  0]LogSavePackage: Moving 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Saved/Floor_400x4000C816307490DDCEB8919D4B9922B106F.tmp' to 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.09.24-20.11.21:971][  0]LogSavePackage:Display: Finished SavePackage C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.09.24-20.11.21:971][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.09.24-20.11.21:976][  0]Cmd: MAP LOAD FILE="C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.24-20.11.21:977][  0]LightingResults: New page: Lighting Build
+[2017.09.24-20.11.22:025][  0]MapCheck: New page: Map Check
+[2017.09.24-20.11.22:025][  0]LightingResults: New page: Lighting Build
+[2017.09.24-20.11.22:393][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.09.24-20.11.22:398][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.24-20.11.22:410][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.24-20.11.22:445][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.581ms to complete.
+[2017.09.24-20.11.22:445][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.469
+[2017.09.24-20.11.22:595][  0]LogCollectionManager: Loaded 0 collections in 0.000574 seconds
+[2017.09.24-20.11.22:675][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Saved/Collections/' took 0.01s
+[2017.09.24-20.11.22:675][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/Developers/Brendan0222/Collections/' took 0.01s
+[2017.09.24-20.11.22:675][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/Collections/' took 0.01s
+[2017.09.24-20.11.22:675][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.09.24-20.11.22:684][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2329 classes and 491 folders.
+[2017.09.24-20.11.22:718][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.09.24-20.11.22:746][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.09.24-20.11.22:769][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.24-20.11.22:827][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.24-20.11.22:830][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.24-20.11.22:832][  0]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.24-20.11.22:835][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.24-20.11.22:856][  0]LogRenderer: Reallocating scene render targets to support 1208x660 NumSamples 1 (Frame:1).
+[2017.09.24-20.11.22:885][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.24-20.11.22:915][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.09.24-20.11.22:959][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.24-20.11.22:960][  0]LogLoad: (Engine Initialization) Total time: 16.08 seconds
+[2017.09.24-20.11.22:960][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2017.09.24-20.11.22:960][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.24-20.11.22:960][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.24-20.11.23:300][  0]LogOcInput: OculusInput pre-init called
+[2017.09.24-20.11.23:300][  0]LogHMD: Starting GearVRController plugin
+[2017.09.24-20.11.23:639][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.24-20.11.23:680][  1]LogAssetRegistry: Asset discovery search completed in 12.1316 seconds
+[2017.09.24-20.11.23:681][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.24-20.11.23:681][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2017.09.24-20.11.26:339][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.24-20.11.26:962][ 67]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2017.09.24-20.11.28:086][198]Cmd: DELETE
+[2017.09.24-20.11.28:086][198]Cmd: ACTOR DELETE
+[2017.09.24-20.11.28:088][198]LogEditorActor: Deleted Actor: TextRenderActor
+[2017.09.24-20.11.28:096][198]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.09.24-20.12.34:249][110]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.24-20.12.34:418][110]LogSavePackage: Save=106.38ms
+[2017.09.24-20.12.34:418][110]LogSavePackage: Moving 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Saved/FirstPersonExampleMapD23E7168431EE5AA6E03CFB5ED9067FC.tmp' to 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.09.24-20.12.34:422][110]LogSavePackage:Display: Finished SavePackage C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.09.24-20.12.34:438][110]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.181
+[2017.09.24-20.13.03:268][988]LogSourceControl:Error: 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/' is not part of a Git repository
+[2017.09.24-20.13.31:287][307]SourceControl:Error: Error warning: LF will be replaced by CRLF in .gitignore.
+[2017.09.24-20.13.31:287][307]SourceControl:Error: Error The file will have its original line endings in your working directory.
+[2017.09.24-20.13.32:620][311]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.09.24-20.13.32:620][311]SourceControl: Info [master (root-commit) 08b9459] Initial commit
+[2017.09.24-20.13.32:620][311]SourceControl: Info  334 files changed, 138 insertions(+)
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 .gitignore
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Config/DefaultEditor.ini
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Config/DefaultEditorPerProjectUserSettings.ini
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Config/DefaultEngine.ini
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Config/DefaultGame.ini
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Config/DefaultInput.ini
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Animations/FirstPersonFire_Montage.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Animations/FirstPerson_AnimBP.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Animations/FirstPerson_Fire.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Animations/FirstPerson_Idle.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Animations/FirstPerson_JumpEnd.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Animations/FirstPerson_JumpLoop.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Animations/FirstPerson_JumpStart.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Animations/FirstPerson_Run.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Audio/FirstPersonTemplateWeaponFire02.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Character/Materials/M_UE4Man_Body.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Character/Mesh/FirstPersonAnimBlueprint_Copy.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_PhysicsAsset.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Character/Mesh/SK_Mannequin_Arms_Skeleton.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Character/Textures/UE4_LOGO_CARD.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Character/Textures/UE4_Mannequin__normals.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/FPWeapon/Materials/M_FPGun.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_Screen.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/FPWeapon/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/FPWeapon/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/FPWeapon/Mesh/SK_FPGun.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/FPWeapon/Textures/T_FPGun_M.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/FPWeapon/Textures/T_FPGun_N.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Meshes/BaseMaterial.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Meshes/CubeMaterialOverride.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Meshes/FirstPersonProjectileMaterial.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPerson/Textures/FirstPersonCrosshair.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPersonBP/Blueprints/FirstPersonGameMode.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPersonBP/FirstPersonOverview.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/Geometry/Meshes/1M_Cube.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/Geometry/Meshes/1M_Cube_Chamfer.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/Geometry/Meshes/CubeMaterial.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/Geometry/Meshes/TemplateFloor.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/StarterContent/Architecture/Wall_400x200.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/StarterContent/Architecture/Wall_400x300.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/StarterContent/Architecture/Wall_400x400.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/StarterContent/Architecture/Wall_500x500.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2017.09.24-20.13.32:620][311]SourceControl: Info  create mode 100644 Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Collapse01.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Collapse02.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Collapse_Cue.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Explosion01.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Explosion02.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Explosion_Cue.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Fire01.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Fire01_Cue.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Light01.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Light01_Cue.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Light02.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Light02_Cue.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Smoke01.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Starter_Birds01.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Starter_Music01.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Starter_Wind05.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Starter_Wind06.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Steam01.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Audio/Steam01_Cue.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Maps/Advanced_Lighting.umap
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Maps/Minimal_Default.umap
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Maps/StarterMap.umap
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Maps/StarterMap_BuiltData.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Glass.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Water_Lake.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Particles/P_Explosion.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Particles/P_Fire.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Particles/P_Smoke.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Particles/P_Sparks.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/MaterialSphere.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/Materials/M_Bush.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/Materials/M_Chair.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/Materials/M_Door.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/Materials/M_Frame.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/Materials/M_Rock.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/Materials/M_Statue.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_Bush.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_Chair.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_CornerFrame.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_Couch.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_Door.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_DoorFrame.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_GlassWindow.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_PillarFrame.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_Rock.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_Shelf.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_Stairs.uasset
+[2017.09.24-20.13.32:621][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_Statue.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_TableRound.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Props/SM_WindowFrame.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_Cone.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_Cube.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_Plane.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_Torus.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_Trim.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_Tube.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Burst_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Bush_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Bush_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Chair_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Chair_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Door_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Door_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Frame_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Frame_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Lamp_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Lamp_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_MacroVariation.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Shelf_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Shelf_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Spark_Core.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Statue_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Statue_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_TableRound_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_TableRound_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Water_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Water_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2017.09.24-20.13.32:622][311]SourceControl: Info  create mode 100644 GAM303_Milestone1.uproject
+[2017.09.24-20.14.50:649][956]SourceControl: Info On branch master
+[2017.09.24-20.14.50:649][956]SourceControl: Info nothing to commit, working tree clean
+[2017.09.24-20.22.42:004][711]LogSavePackage: Save=89.87ms
+[2017.09.24-20.22.42:004][711]LogSavePackage: Moving 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Saved/FirstPersonExampleMapB695072C4B2BE835F8024AA9A4B1B712.tmp' to 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.09.24-20.22.42:006][711]LogSavePackage:Display: Finished SavePackage C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.09.24-20.22.43:089][711]LogSavePackage: Save=902.38ms
+[2017.09.24-20.22.43:089][711]LogSavePackage: Moving 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Saved/FirstPersonExampleMap_BuiltData15BF9DD84C7E93DFFCE5D1BF31BEF84A.tmp' to 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2017.09.24-20.22.43:092][711]LogSavePackage:Display: Finished SavePackage C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/FirstPersonBP/Maps/FirstPersonExampleMap_BuiltData.uasset
+[2017.09.24-20.22.43:092][711]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.24-20.22.44:556][851]Cmd: QUIT_EDITOR
+[2017.09.24-20.22.44:585][851]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.24-20.22.44:593][851]LogExit: Preparing to exit.
+[2017.09.24-20.22.45:623][851]LogExit: Editor shut down
+[2017.09.24-20.22.45:630][851]LogExit: Transaction tracking system shut down
+[2017.09.24-20.22.45:702][851]LogObj: Freed 0b from 0 cluster array pools.
+[2017.09.24-20.22.45:702][851]LogExit: Object subsystem successfully closed.
+[2017.09.24-20.22.45:724][851]LogD3D11RHI: Shutdown
+[2017.09.24-20.22.45:724][851]LogD3D11RHI: CleanupD3DDevice
+[2017.09.24-20.22.45:834][851]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.24-20.22.45:843][851]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.09.24-20.22.45:843][851]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.09.24-20.22.45:843][851]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.09.24-20.22.45:843][851]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.09.24-20.22.45:843][851]LogDirectoryWatcher: A directory notification for 'E:/UE_4.16/FeaturePacks/' was aborted.
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.09.24-20.22.45:852][851]LogDirectoryWatcher: A directory notification for 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/Collections/' was aborted.
+[2017.09.24-20.22.45:852][851]LogDirectoryWatcher: A directory notification for 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/Developers/Brendan0222/Collections/' was aborted.
+[2017.09.24-20.22.45:852][851]LogDirectoryWatcher: A directory notification for 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Saved/Collections/' was aborted.
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.09.24-20.22.45:852][851]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.09.24-20.22.45:853][851]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.09.24-20.22.45:853][851]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.09.24-20.22.45:853][851]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.09.24-20.22.45:853][851]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.09.24-20.22.45:853][851]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.09.24-20.22.45:853][851]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.09.24-20.22.45:853][851]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.09.24-20.22.45:853][851]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.09.24-20.22.45:853][851]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.09.24-20.22.45:853][851]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.09.24-20.22.45:853][851]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.09.24-20.22.45:853][851]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.09.24-20.22.45:853][851]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.09.24-20.22.45:853][851]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.09.24-20.22.45:853][851]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.09.24-20.22.46:420][851]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.09.24-20.22.46:421][851]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.09.24-20.22.46:421][851]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.09.24-20.22.46:421][851]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.09.24-20.22.46:421][851]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.09.24-20.22.46:421][851]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.09.24-20.22.46:421][851]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.09.24-20.22.46:421][851]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.09.24-20.22.46:476][851]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.09.24-20.22.46:476][851]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.09.24-20.22.46:476][851]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.09.24-20.22.46:476][851]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.09.24-20.22.46:476][851]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.09.24-20.22.46:476][851]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.09.24-20.22.46:476][851]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.09.24-20.22.46:476][851]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.09.24-20.22.46:476][851]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.09.24-20.22.46:477][851]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.09.24-20.22.46:478][851]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.09.24-20.22.46:478][851]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.09.24-20.22.46:478][851]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.09.24-20.22.46:478][851]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.09.24-20.22.46:478][851]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.09.24-20.22.46:478][851]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.09.24-20.22.46:478][851]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.09.24-20.22.46:478][851]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.09.24-20.22.46:478][851]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.09.24-20.22.46:478][851]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.09.24-20.22.46:478][851]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.09.24-20.22.46:479][851]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.09.24-20.22.46:479][851]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.09.24-20.22.46:479][851]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.09.24-20.22.46:479][851]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.09.24-20.22.46:479][851]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.09.24-20.22.46:479][851]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.09.24-20.22.46:479][851]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.09.24-20.22.46:479][851]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.09.24-20.22.46:479][851]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.09.24-20.22.46:628][851]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.09.24-20.22.46:629][851]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.09.24-20.22.46:629][851]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.09.24-20.22.46:629][851]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.09.24-20.22.46:629][851]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.09.24-20.22.46:629][851]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.09.24-20.22.46:629][851]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.09.24-20.22.46:629][851]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.09.24-20.22.46:629][851]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.09.24-20.22.46:629][851]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.09.24-20.22.46:629][851]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.09.24-20.22.46:629][851]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.09.24-20.22.46:629][851]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.09.24-20.22.46:629][851]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.09.24-20.22.46:629][851]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.09.24-20.22.46:629][851]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.09.24-20.22.46:629][851]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.09.24-20.22.46:631][851]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.09.24-20.22.46:631][851]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.09.24-20.22.46:631][851]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.09.24-20.22.46:632][851]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.09.24-20.22.46:632][851]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.09.24-20.22.46:632][851]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.09.24-20.22.46:632][851]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.09.24-20.22.46:632][851]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.09.24-20.22.46:632][851]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.09.24-20.22.46:733][851]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.09.24-20.22.46:833][851]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.09.24-20.22.46:833][851]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.09.24-20.22.46:833][851]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.09.24-20.22.46:833][851]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.09.24-20.22.46:833][851]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.09.24-20.22.46:833][851]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.09.24-20.22.46:836][851]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.09.24-20.22.46:836][851]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.09.24-20.22.46:836][851]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.09.24-20.22.46:836][851]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.09.24-20.22.46:836][851]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.09.24-20.22.46:836][851]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.09.24-20.22.46:836][851]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.09.24-20.22.46:836][851]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.09.24-20.22.46:836][851]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.09.24-20.22.46:837][851]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.09.24-20.22.46:837][851]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.09.24-20.22.46:837][851]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.09.24-20.22.46:837][851]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.09.24-20.22.46:837][851]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.09.24-20.22.46:837][851]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.09.24-20.22.46:837][851]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.09.24-20.22.46:837][851]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.09.24-20.22.46:837][851]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.09.24-20.22.46:837][851]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.09.24-20.22.46:837][851]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.09.24-20.22.46:837][851]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.09.24-20.22.46:837][851]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.09.24-20.22.46:838][851]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.09.24-20.22.46:844][851]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.09.24-20.22.46:844][851]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.09.24-20.22.46:844][851]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.09.24-20.22.46:844][851]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.09.24-20.22.46:844][851]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.09.24-20.22.46:844][851]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.09.24-20.22.46:982][851]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.24-20.22.46:982][851]LogDirectoryWatcher: A directory notification for 'C:/Users/Brendan0222/Documents/Unreal Projects/GAM303_Milestone1/Content/' was aborted.
+[2017.09.24-20.22.46:982][851]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.24-20.22.46:982][851]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.09.24-20.22.46:984][851]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.09.24-20.22.46:985][851]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.09.24-20.22.46:985][851]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.09.24-20.22.46:985][851]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.09.24-20.22.46:985][851]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.09.24-20.22.46:985][851]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.09.24-20.22.46:985][851]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.09.24-20.22.46:985][851]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.09.24-20.22.46:985][851]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.24-20.22.47:071][851]LogDerivedDataCache: Shutdown
+[2017.09.24-20.22.47:071][851]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.24-20.22.47:071][851]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.24-20.22.47:071][851]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.24-20.22.47:071][851]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.24-20.22.47:071][851]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.24-20.22.47:071][851]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.24-20.22.47:071][851]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.24-20.22.47:071][851]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.24-20.22.47:071][851]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.24-20.22.47:071][851]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.24-20.22.47:071][851]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.24-20.22.47:071][851]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.24-20.22.47:071][851]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.24-20.22.47:071][851]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.24-20.22.47:072][851]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.24-20.22.47:073][851]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.24-20.22.47:073][851]LogOnline:Display: Unloading online subsystem: NULL
+[2017.09.24-20.22.47:073][851]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.24-20.22.47:073][851]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.24-20.22.47:073][851]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.24-20.22.47:073][851]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6C252CF2-404C-B0AF-066C-2D85AA42B23A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=1039904c4970a1bcb3245ab85309eb92%7C9a18e7798a444d079699c3be3487a3b8%7C4b126e59-fb09-4100-8da3-284da9b21e38&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.24-20.22.47:077][851]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.24-20.22.47:081][851]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.09.24-20.22.47:081][851]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.09.24-20.22.47:081][851]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.09.24-20.22.47:081][851]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.09.24-20.22.47:081][851]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.09.24-20.22.47:081][851]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.09.24-20.22.47:081][851]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.09.24-20.22.47:081][851]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.09.24-20.22.47:083][851]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.09.24-20.22.47:083][851]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.09.24-20.22.47:083][851]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.09.24-20.22.47:083][851]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.09.24-20.22.47:083][851]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.09.24-20.22.47:083][851]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.09.24-20.22.47:083][851]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.09.24-20.22.47:083][851]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.24-20.22.47:083][851]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.24-20.22.47:083][851]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.24-20.22.47:087][851]LogExit: Exiting.
+[2017.09.24-20.22.47:122][851]Log file closed, 09/24/17 16:22:47
